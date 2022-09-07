@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  font-family: "Inter";
+  background-color: rgb(17, 11, 11);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.titre {
+  display: flex;
+  justify-content: center;
+  width: 10.9%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+}
+nav ul li {
+  margin-left: 150px;
+  list-style: none;
+  
+}
+nav ul li:hover {
+  transition: 5s;
+  opacity: 0.8;
+  text-decoration: underline grey;
+ 
+}
+
+ul,
+li,
+h1,
+p {
+  color: white;
+}
+
+.Contenerleft {
+  display: block;
+  margin-left: 2%;
+}
+
+.Contenerleft h1 {
+  display: block;
+  margin-top: 150px;
+  max-width: 100px;
+  font-size: 80px;
+  text-shadow: 9px 6px 9px rgba(0, 0, 0, 0.639);
+  user-select: none;
+}
+
+.Contenerleft:nth-child(1) {
+  color: blue;
+}
+
+.Contenerleft p {
+  width: 500px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.639);
+}
+.contenerleft,
+.imgmain {
+  /* Pour placer les 2 bloc a la même distance */
+  display: flex;
+  justify-content: space-evenly;
+}
+@keyframes move {
+  0% {
+    margin-right: 10px;
+  }
+  5% {
+    margin-right: -10px;
+  }
+  10% {
+    margin-right: 10px;
+  }
+  15% {
+    margin-right: -10px;
+  }
+  20% {
+    margin-right: 10px;
+  }
+  25% {
+    margin-right: -10px;
+  }
+
+  30% {
+    margin-right: 10px;
+  }
+  35% {
+    margin-right: -10px;
+  }
+  40% {
+    margin-right: 10px;
+  }
+  45% {
+    margin-right: -10px;
+  }
+  50% {
+    margin-right: 10px;
+  }
+  55% {
+    margin-right: -10px;
+  }
+  60% {
+    margin-right: 10px;
+  }
+  65% {
+    margin-right: -10px;
+  }
+
+  70% {
+    margin-right: 10px;
+  }
+  75% {
+    margin-right: -10px;
+  }
+  80% {
+    margin-right: 10px;
+  }
+  85% {
+    margin-right: -10px;
+  }
+  90% {
+    margin-right: 10px;
+  }
+  95% {
+    margin-right: -10px;
+  }
+  100% {
+    margin-right: 10px;
+  }
+  95% {
+    margin-right: -10px;
+  }
+  90% {
+    margin-right: 10px;
+  }
+  85% {
+    margin-right: -10px;
+  }
+  80% {
+    margin-right: 10px;
+  }
+  75% {
+    margin-right: -10px;
+  }
+  70% {
+    margin-right: -10px;
+  }
+  65% {
+    margin-right: -10px;
+  }
+  60% {
+    margin-right: 10px;
+  }
+  55% {
+    margin-right: -10px;
+  }
+  50% {
+    margin-right: 10px;
+  }
+  45% {
+    margin-right: -10px;
+  }
+  40% {
+    margin-right: 10px;
+  }
+  35% {
+    margin-right: -10px;
+  }
+  30% {
+    margin-right: 10px;
+  }
+  25% {
+    margin-right: -10px;
+  }
+  20% {
+    margin-right: 10px;
+  }
+  15% {
+    margin-right: -10px;
+  }
+  10% {
+    margin-right: 10px;
+  }
+  5% {
+    margin-right: -10px;
+  }
+  0% {
+    margin-right: 10px;
+  }
+}
+
+.imgmain {
+  animation-name: move;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  margin-left: 600px;
+  margin-top: -550px;
+}
+
+.imgmain img {
+  height: 500px;
+  width: 600px;
+}
+.footercontener {
+  display: flex;
+  height: 200px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  background-color: black;
+  border: 2px;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.726);
+}
+.footerlist ul li {
+  list-style: none;
+  margin-left: -25px;
+  margin-right: 50px;
+  margin-top: 10px;
+  border: 2px solid rgb(59, 59, 145);
+  border-radius: 10px;
+  background-color: rgb(59, 59, 145);
+  padding: 5px;
+  font-size: medium;
+}
+.footerlist,
+h2 {
+  list-style: none;
+  margin-left: 5px;
+}
+.contenerfooterright h2 {
+  margin-left: 220px;
+}
+.contenerfooterright img {
+  height: 40px;
+  margin-left: 230px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
